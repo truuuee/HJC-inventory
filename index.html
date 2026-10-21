@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HJC 통합 재고 관리 시스템</title>
+  <!-- Google Fonts: Inter & Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme-dark">
+  <div class="app-container">
+    <!-- Top Header & Date Badges -->
+    <header class="app-header">
+      <div class="header-main">
+        <div class="brand-section">
+          <div class="brand-badge">HJC HELMET</div>
+          <h1 class="app-title">HJC & MOTOMALL 통합 재고 관리 시스템</h1>
+        </div>
+
+        <div class="header-actions">
+          <!-- Refresh / Batch Info -->
+          <button id="themeToggleBtn" class="btn-icon" title="다크/라이트 테마 전환" aria-label="테마 전환">
+            <span class="icon-theme" id="themeIcon">☀️</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Critical Requirement: Prominent Sync Timestamps -->
+      <div class="sync-banner">
+        <div class="sync-card store-sync">
+          <div class="sync-icon">🏪</div>
+          <div class="sync-info">
+            <span class="sync-label">매장 보유재고 기준일시</span>
+            <span class="sync-value" id="storeSyncDate">-</span>
+          </div>
+          <span class="status-dot pulse-green" title="매장 데이터 로드 완료"></span>
+        </div>
+
+        <div class="sync-card hq-sync">
+          <div class="sync-icon">🏢</div>
+          <div class="sync-info">
+            <span class="sync-label">HJC 본사 재고 기준일시</span>
+            <span class="sync-value" id="hqSyncDate">-</span>
+          </div>
+          <span class="status-dot pulse-blue" title="본사 데이터 연동 완료"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Stats Section (Items count excluded as requested) -->
+    <section class="stats-grid">
+      <div class="stat-card stat-store">
+        <div class="stat-icon-wrapper">
+          <svg class="stat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+          </svg>
+        </div>
+        <div class="stat-content">
+          <span class="stat-title">매장 총 보유수량</span>
+          <div class="stat-number-row">
+            <span class="stat-number" id="statTotalStoreStock">0</span>
+            <span class="stat-unit">개</span>
+          </div>
+          <span class="stat-desc">매장 내 당일 즉시출고 가능 수량</span>
+        </div>
+      </div>
+
+      <div class="stat-card stat-hq">
+        <div class="stat-icon-wrapper">
+          <svg class="stat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        </div>
+        <div class="stat-content">
+          <span class="stat-title">본사 가용 재고 현황</span>
+          <div class="stat-number-row">
+            <span class="stat-number" id="statTotalHqAvailable">0</span>
+            <span class="stat-unit">개 품목 가용</span>
+          </div>
+          <span class="stat-desc">본사 주문/공급 가능 품목 수</span>
+        </div>
+      </div>
+
+      <div class="stat-card stat-match">
+        <div class="stat-icon-wrapper">
+          <svg class="stat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="stat-content">
+          <span class="stat-title">재고 데이터 매핑 상태</span>
+          <div class="stat-number-row">
+            <span class="stat-number highlight-text">정상 매핑</span>
+          </div>
+          <span class="stat-desc" id="statFileName">현재고조회 자동 연동</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls Section: Search & Filters -->
+    <section class="controls-card">
+      <div class="search-row">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" class="search-input"
+            placeholder="상품명을 입력하세요 (현재고조회 기준 검색 / 띄어쓰기로 다중 검색 가능, 예: 알파11 펄 화이트)" autocomplete="off"
+            spellcheck="false">
+          <button id="clearSearchBtn" class="clear-btn" title="검색어 지우기" aria-label="검색어 지우기">&times;</button>
+        </div>
+        <button id="exportCsvBtn" class="btn-secondary" title="현재 조회된 목록을 엑셀(CSV)로 다운로드">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          CSV 내보내기
+        </button>
+      </div>
+
+      <div class="filter-row">
+        <!-- Category Filter -->
+        <div class="filter-group">
+          <span class="filter-label">구분:</span>
+          <div class="chip-container" id="categoryChips">
+            <button class="chip active" data-cat="all">전체</button>
+            <button class="chip" data-cat="헬멧">헬멧</button>
+            <button class="chip" data-cat="파츠">파츠/쉴드/소품</button>
+          </div>
+        </div>
+
+        <!-- Stock Status Filter -->
+        <div class="filter-group">
+          <span class="filter-label">재고 상태:</span>
+          <div class="chip-container" id="statusChips">
+            <button class="chip active" data-status="all">전체보기</button>
+            <button class="chip" data-status="store-only">매장 보유</button>
+            <button class="chip" data-status="hq-only">본사 보유</button>
+            <button class="chip" data-status="both">매장/본사 둘 다 보유</button>
+            <button class="chip" data-status="out-of-stock">품절</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Table Section -->
+    <main class="table-card">
+      <div class="table-header-bar">
+        <div class="search-result-info">
+          조회 결과: <strong id="resultCount" class="accent-num">0</strong>건
+          <span id="activeFilterTags" class="filter-tags"></span>
+        </div>
+        <div class="table-actions">
+          <label for="pageSizeSelect" class="page-size-label">표시 개수:</label>
+          <select id="pageSizeSelect" class="select-dropdown">
+            <option value="25">25개씩</option>
+            <option value="50" selected>50개씩</option>
+            <option value="100">100개씩</option>
+            <option value="all">전체보기</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Mobile Horizontal Scroll Hint -->
+      <div class="mobile-scroll-hint">
+        <span>👉 좌우로 밀어서 전체 정보를 확인하세요 👈</span>
+      </div>
+
+      <div class="table-responsive">
+        <table class="inventory-table" id="inventoryTable">
+          <thead>
+            <tr>
+              <th class="col-no" data-sort="no">No <span class="sort-icon"></span></th>
+              <th class="col-pcode" data-sort="product_code">상품코드 <span class="sort-icon"></span></th>
+              <th class="col-name" data-sort="product_name">상품명 <span class="sort-icon"></span></th>
+              <th class="col-barcode" data-sort="barcode">바코드 <span class="sort-icon"></span></th>
+              <th class="col-store-stock" data-sort="store_stock">매장재고 <span class="sort-icon"></span></th>
+              <th class="col-hq-stock" data-sort="hq_stock">본사재고 <span class="sort-icon"></span></th>
+              <th class="col-loc" data-sort="location">로케이션 <span class="sort-icon"></span></th>
+              <th class="col-status" data-sort="status">상태 <span class="sort-icon"></span></th>
+            </tr>
+          </thead>
+          <tbody id="inventoryTableBody">
+            <!-- Dynamic Rows Injected by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Empty State -->
+      <div id="emptyState" class="empty-state hidden">
+        <div class="empty-icon">🔍</div>
+        <h3>검색 조건과 일치하는 상품이 없습니다</h3>
+        <p>검색어를 다른 단어로 변경하거나 필터 조건을 초기화해 보세요.</p>
+        <button id="resetFiltersBtn" class="btn-primary">필터 및 검색어 초기화</button>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination-bar" id="paginationBar">
+        <button id="firstPageBtn" class="page-nav-btn" title="첫 페이지">&laquo;</button>
+        <button id="prevPageBtn" class="page-nav-btn" title="이전 페이지">&lsaquo;</button>
+        <div id="pageNumbers" class="page-numbers"></div>
+        <button id="nextPageBtn" class="page-nav-btn" title="다음 페이지">&rsaquo;</button>
+        <button id="lastPageBtn" class="page-nav-btn" title="마지막 페이지">&raquo;</button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <span>HJC 재고 자동화 관리 시스템 &bull; 모토몰 매장 및 본사 재고 통합 뷰어</span>
+        <span class="hint-text">💡 상품코드, 상품명, 바코드를 클릭하면 바로 복사할 수 있습니다.</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast Notification for Copy -->
+  <div id="copyToast" class="toast">클립보드에 복사되었습니다!</div>
+
+  <!-- Data & Logic Scripts -->
+  <script src="inventory_data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
