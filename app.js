@@ -52,6 +52,16 @@
     setupTheme();
     setupEventListeners();
     await loadData();
+    
+    // Check URL parameters for search query
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+    if (searchParam) {
+      searchQuery = searchParam;
+      if (searchInput) searchInput.value = searchParam;
+      if (clearSearchBtn) clearSearchBtn.classList.add('visible');
+    }
+    
     applyFilters();
   }
 
@@ -91,6 +101,40 @@
     }
   }
 
+  // Common Synonyms for Cross-Language Search
+  const SYNONYM_MAP = {
+    'alia': '아리아',
+    '아리아': 'alia',
+    'curves': '커브스',
+    '커브스': 'curves',
+    'belis': '벨리스',
+    '벨리스': 'belis',
+    'hiper': '하이퍼',
+    '하이퍼': 'hiper',
+    'aspa': '아스파',
+    '아스파': 'aspa',
+    'aton': '아톤',
+    '아톤': 'aton',
+    'balius': '바리우스',
+    '바리우스': 'balius',
+    'bask': '바스크',
+    '바스크': 'bask',
+    'combust': '컴버스트',
+    '컴버스트': 'combust',
+    'dakar': '다카르',
+    '다카르': 'dakar',
+    'ceron': '세론',
+    '세론': 'ceron',
+    'sysma': '시스마',
+    '시스마': 'sysma',
+    'drizzle': '드리즐',
+    '드리즐': 'drizzle',
+    'solid': '솔리드',
+    '솔리드': 'solid',
+    'carbon': '카본',
+    '카본': 'carbon'
+  };
+
   // Filter & Search Logic
   function applyFilters() {
     const rawTokens = searchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -103,22 +147,35 @@
 
       // 2. Status Filter
       if (currentStatus !== 'all') {
-        if (currentStatus === 'store-only' && (item.store_stock <= 0 || item.hq_stock === 'O')) return false;
-        if (currentStatus === 'hq-only' && (item.hq_stock !== 'O' || item.store_stock > 0)) return false;
+        // [매장 보유]: 매장에 실재고가 1개 이상 있는 모든 품목
+        if (currentStatus === 'store-only' && (item.store_stock <= 0)) return false;
+        // [본사 보유]: 본사에 가용 재고('O')가 있는 모든 품목
+        if (currentStatus === 'hq-only' && (item.hq_stock !== 'O')) return false;
+        // [매장/본사 둘 다 보유]: 둘 다 있는 품목
         if (currentStatus === 'both' && (item.store_stock <= 0 || item.hq_stock !== 'O')) return false;
+        // [품절]: 둘 다 없는 품목
         if (currentStatus === 'out-of-stock' && (item.store_stock > 0 || item.hq_stock === 'O')) return false;
       }
 
-      // 3. Search Query Filter (Matches product_name as strictly required, also allows code/barcode match)
+      // 3. Search Query Filter (Matches product_name, code, barcode, aliases, and synonyms)
       if (rawTokens.length > 0) {
         const pName = (item.product_name || '').toLowerCase();
         const pCode = (item.product_code || '').toLowerCase();
         const barcode = (item.barcode || '').toLowerCase();
+        const aliases = (item.aliases || []).map(a => String(a).toLowerCase());
+        const aliasStr = aliases.join(' ');
 
-        // Every token must be present in product_name OR code/barcode
-        const matchesAll = rawTokens.every(tok => 
-          pName.includes(tok) || pCode.includes(tok) || barcode.includes(tok)
-        );
+        // Every token must be present in product_name OR code/barcode OR aliases OR matched via synonym
+        const matchesAll = rawTokens.every(tok => {
+          if (pName.includes(tok) || pCode.includes(tok) || barcode.includes(tok) || aliasStr.includes(tok)) {
+            return true;
+          }
+          const syn = SYNONYM_MAP[tok];
+          if (syn) {
+            return pName.includes(syn) || pCode.includes(syn) || barcode.includes(syn) || aliasStr.includes(syn);
+          }
+          return false;
+        });
         if (!matchesAll) return false;
       }
 
