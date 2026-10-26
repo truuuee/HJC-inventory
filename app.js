@@ -132,8 +132,43 @@
     'solid': '솔리드',
     '솔리드': 'solid',
     'carbon': '카본',
-    '카본': 'carbon'
+    '카본': 'carbon',
+    '알파': 'rpha',
+    'rpha': '알파'
   };
+
+  // Helper to get all search variants/synonyms for a token
+  function getSearchVariants(token) {
+    const variants = new Set();
+    const lower = token.toLowerCase();
+    variants.add(lower);
+
+    // 1. Synonym Map Lookup
+    if (SYNONYM_MAP[lower]) {
+      const syn = SYNONYM_MAP[lower];
+      if (Array.isArray(syn)) {
+        syn.forEach(s => variants.add(s.toLowerCase()));
+      } else {
+        variants.add(syn.toLowerCase());
+      }
+    }
+
+    // 2. '알파' <-> 'rpha' 복합어/접미어 치환 (예: 알파11 <-> rpha11, rpha 11)
+    if (lower.includes('알파')) {
+      const replaced = lower.replace(/알파/g, 'rpha');
+      variants.add(replaced);
+      const withSpace = lower.replace(/알파(\d+)/g, 'rpha $1');
+      if (withSpace !== lower) variants.add(withSpace);
+    }
+    if (lower.includes('rpha')) {
+      const replaced = lower.replace(/rpha/g, '알파');
+      variants.add(replaced);
+      const withSpace = lower.replace(/rpha(\d+)/g, '알파 $1');
+      if (withSpace !== lower) variants.add(withSpace);
+    }
+
+    return Array.from(variants);
+  }
 
   // Filter & Search Logic
   function applyFilters() {
@@ -165,16 +200,25 @@
         const aliases = (item.aliases || []).map(a => String(a).toLowerCase());
         const aliasStr = aliases.join(' ');
 
+        // 공백 제거 문자열 (예: 'rpha 11' vs 'rpha11')
+        const pNameNoSpace = pName.replace(/\s+/g, '');
+        const pCodeNoSpace = pCode.replace(/\s+/g, '');
+        const barcodeNoSpace = barcode.replace(/\s+/g, '');
+        const aliasStrNoSpace = aliasStr.replace(/\s+/g, '');
+
         // Every token must be present in product_name OR code/barcode OR aliases OR matched via synonym
         const matchesAll = rawTokens.every(tok => {
-          if (pName.includes(tok) || pCode.includes(tok) || barcode.includes(tok) || aliasStr.includes(tok)) {
-            return true;
-          }
-          const syn = SYNONYM_MAP[tok];
-          if (syn) {
-            return pName.includes(syn) || pCode.includes(syn) || barcode.includes(syn) || aliasStr.includes(syn);
-          }
-          return false;
+          const variants = getSearchVariants(tok);
+          return variants.some(v => {
+            if (pName.includes(v) || pCode.includes(v) || barcode.includes(v) || aliasStr.includes(v)) {
+              return true;
+            }
+            const vNoSpace = v.replace(/\s+/g, '');
+            if (vNoSpace && (pNameNoSpace.includes(vNoSpace) || pCodeNoSpace.includes(vNoSpace) || barcodeNoSpace.includes(vNoSpace) || aliasStrNoSpace.includes(vNoSpace))) {
+              return true;
+            }
+            return false;
+          });
         });
         if (!matchesAll) return false;
       }
@@ -238,15 +282,19 @@
     }
 
     const tokens = searchQuery.trim().split(/\s+/).filter(Boolean);
+    const highlightTokens = [];
+    tokens.forEach(tok => {
+      getSearchVariants(tok).forEach(v => highlightTokens.push(v));
+    });
 
     const rowsHtml = displayItems.map((item, idx) => {
       const rowNo = pageSize === 'all' 
         ? idx + 1 
         : (currentPage - 1) * Number(pageSize) + idx + 1;
 
-      const highlightedName = highlightMatches(item.product_name, tokens);
-      const highlightedCode = highlightMatches(item.product_code, tokens);
-      const highlightedBarcode = highlightMatches(item.barcode, tokens);
+      const highlightedName = highlightMatches(item.product_name, highlightTokens);
+      const highlightedCode = highlightMatches(item.product_code, highlightTokens);
+      const highlightedBarcode = highlightMatches(item.barcode, highlightTokens);
 
       // Store Stock Badge
       const storeStockBadge = item.store_stock > 0
