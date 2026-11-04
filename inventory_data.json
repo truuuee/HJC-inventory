@@ -1,15 +1,15 @@
 {
   "meta": {
-    "store_time": "2026-11-03 10:40",
-    "store_filename": "현재고조회_20261103104009_009354623.xls",
+    "store_time": "2026-11-04 10:14",
+    "store_filename": "현재고조회_20261104101403_843264480.xls",
     "hq_time": "2026-11-03",
-    "total_store_stock": 2765,
+    "total_store_stock": 2990,
     "total_hq_available_in_store": 1408,
     "total_hq_available_catalog": 1408,
     "store_item_count": 1043,
     "hq_only_added_count": 773,
     "item_count": 1816,
-    "generated_at": "2026-11-03 10:42:46"
+    "generated_at": "2026-11-04 10:19:45"
   },
   "items": [
     {
@@ -97,7 +97,7 @@
       "product_code": "00789",
       "product_name": "HJC C10(HJ-34P) 쉴드면 실버",
       "barcode": "M-299",
-      "store_stock": 6,
+      "store_stock": 5,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -113,7 +113,7 @@
       "product_code": "00790",
       "product_name": "HJC C10(HJ-34P) 쉴드면 클리어",
       "barcode": "M-293",
-      "store_stock": 6,
+      "store_stock": 5,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -145,7 +145,7 @@
       "product_code": "03551",
       "product_name": "HJC C10(HJ-34P) 핀락",
       "barcode": "M-282",
-      "store_stock": 6,
+      "store_stock": 5,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-202",
@@ -433,7 +433,7 @@
       "product_code": "00810",
       "product_name": "HJC CH-5(HJ-12) 쉴드면 실버",
       "barcode": "M-081",
-      "store_stock": 14,
+      "store_stock": 12,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D/B12-201",
@@ -641,7 +641,7 @@
       "product_code": "11919",
       "product_name": "HJC F100 카본(HJ-45B) 쉴드면 스모그",
       "barcode": "M-361",
-      "store_stock": 3,
+      "store_stock": 2,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -927,7 +927,7 @@
       "product_code": "00830",
       "product_name": "HJC F70(HJ-32) 쉴드면 파이어레드",
       "barcode": "M-214",
-      "store_stock": 4,
+      "store_stock": 3,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "2층 쇼룸 앞",
@@ -1295,7 +1295,7 @@
       "product_code": "00847",
       "product_name": "HJC i30(HJ-34) 쉴드면 파이어레드",
       "barcode": "M-281",
-      "store_stock": 6,
+      "store_stock": 5,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -1311,7 +1311,7 @@
       "product_code": "03541",
       "product_name": "HJC i30(HJ-34) 핀락",
       "barcode": "M-265",
-      "store_stock": 8,
+      "store_stock": 7,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-202",
@@ -2523,12 +2523,12 @@
       "product_code": "03559",
       "product_name": "HJC 알파12(HJ-42) 핀락",
       "barcode": "M-339",
-      "store_stock": 0,
+      "store_stock": 10,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-202",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
         "50000.0"
@@ -2587,7 +2587,7 @@
       "product_code": "00895",
       "product_name": "HJC 알파31(HJ-39) 쉴드면 스모그",
       "barcode": "M-314",
-      "store_stock": 20,
+      "store_stock": 19,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -3183,7 +3183,7 @@
       "product_code": "08092",
       "product_name": "HJC 헬멧 C10 솔리드 세미 플랫 블랙 2XL",
       "barcode": "H-3014",
-      "store_stock": 5,
+      "store_stock": 4,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS16",
@@ -3429,8 +3429,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3446,8 +3446,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3463,8 +3463,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3480,8 +3480,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3497,8 +3497,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3514,8 +3514,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3531,8 +3531,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3548,8 +3548,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3565,8 +3565,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3582,8 +3582,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3599,8 +3599,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -3616,8 +3616,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ASPA",
-        "아스파"
+        "아스파",
+        "ASPA"
       ]
     },
     {
@@ -4221,8 +4221,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4238,8 +4238,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4255,8 +4255,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4272,8 +4272,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4289,8 +4289,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4306,8 +4306,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4323,8 +4323,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4520,8 +4520,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4537,8 +4537,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4554,8 +4554,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4571,8 +4571,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4588,8 +4588,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4605,8 +4605,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4622,8 +4622,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "커브스",
-        "CURVES"
+        "CURVES",
+        "커브스"
       ]
     },
     {
@@ -4667,8 +4667,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -4684,8 +4684,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -4701,8 +4701,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -4718,8 +4718,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -5211,8 +5211,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5228,8 +5228,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5237,16 +5237,16 @@
       "product_code": "07768",
       "product_name": "HJC 헬멧 CH-5 드리즐 MC1 S",
       "barcode": "H-3639",
-      "store_stock": 0,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS6",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5262,8 +5262,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5279,8 +5279,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5296,8 +5296,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5313,8 +5313,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5330,8 +5330,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "드리즐",
-        "DRIZZLE"
+        "DRIZZLE",
+        "드리즐"
       ]
     },
     {
@@ -5339,7 +5339,7 @@
       "product_code": "07757",
       "product_name": "HJC 헬멧 CH-5 볼레즈 MC10SF L",
       "barcode": "H-2611",
-      "store_stock": 3,
+      "store_stock": 6,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS7",
@@ -5458,7 +5458,7 @@
       "product_code": "07763",
       "product_name": "HJC 헬멧 CH-5 볼레즈 MC5 XL",
       "barcode": "H-599",
-      "store_stock": 3,
+      "store_stock": 6,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS6",
@@ -5540,7 +5540,7 @@
       "product_code": "07776",
       "product_name": "HJC 헬멧 CH-5 솔리드 러버톤 플랫 블랙 XL",
       "barcode": "H-289",
-      "store_stock": 4,
+      "store_stock": 6,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS8",
@@ -5676,7 +5676,7 @@
       "product_code": "07783",
       "product_name": "HJC 헬멧 CL-33 솔리드 러버톤 플랫 블랙 XL",
       "barcode": "H-165",
-      "store_stock": 3,
+      "store_stock": 4,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS9",
@@ -6137,8 +6137,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "나비",
-        "NABY"
+        "NABY",
+        "나비"
       ]
     },
     {
@@ -6154,8 +6154,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "나비",
-        "NABY"
+        "NABY",
+        "나비"
       ]
     },
     {
@@ -6171,8 +6171,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "나비",
-        "NABY"
+        "NABY",
+        "나비"
       ]
     },
     {
@@ -6188,8 +6188,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "나비",
-        "NABY"
+        "NABY",
+        "나비"
       ]
     },
     {
@@ -6205,8 +6205,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6222,8 +6222,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6239,8 +6239,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6256,8 +6256,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6273,8 +6273,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6290,8 +6290,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6307,8 +6307,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6324,8 +6324,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6341,8 +6341,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6358,8 +6358,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6375,8 +6375,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6392,8 +6392,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BASK",
-        "바스크"
+        "바스크",
+        "BASK"
       ]
     },
     {
@@ -6554,7 +6554,7 @@
       "product_code": "08152",
       "product_name": "HJC 헬멧 F31 솔리드 메탈 블랙 L",
       "barcode": "H-3754",
-      "store_stock": -1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS14",
@@ -6571,7 +6571,7 @@
       "product_code": "08153",
       "product_name": "HJC 헬멧 F31 솔리드 메탈 블랙 M",
       "barcode": "H-3753",
-      "store_stock": 2,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS14",
@@ -6605,12 +6605,12 @@
       "product_code": "08154",
       "product_name": "HJC 헬멧 F31 솔리드 메탈 블랙 XL",
       "barcode": "H-3755",
-      "store_stock": 0,
+      "store_stock": 1,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS14",
-      "status": "품절",
-      "status_type": "none",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -6639,7 +6639,7 @@
       "product_code": "08150",
       "product_name": "HJC 헬멧 F31 솔리드 세미 플랫 블랙 L",
       "barcode": "H-3746",
-      "store_stock": 2,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS14",
@@ -6656,12 +6656,12 @@
       "product_code": "08151",
       "product_name": "HJC 헬멧 F31 솔리드 세미 플랫 블랙 M",
       "barcode": "H-3745",
-      "store_stock": -1,
+      "store_stock": 2,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS14",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -7301,8 +7301,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7318,8 +7318,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7335,8 +7335,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7352,8 +7352,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7369,8 +7369,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7386,8 +7386,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -7417,8 +7417,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "에펜",
-        "EPEN"
+        "EPEN",
+        "에펜"
       ]
     },
     {
@@ -8011,8 +8011,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8028,8 +8028,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8045,8 +8045,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8062,8 +8062,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8071,16 +8071,16 @@
       "product_code": "08056",
       "product_name": "HJC 헬멧 i30 아톤 MC3H L",
       "barcode": "H-3627",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS14",
-      "status": "매장 보유",
-      "status_type": "store",
+      "status": "품절",
+      "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8096,8 +8096,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8105,16 +8105,16 @@
       "product_code": "08058",
       "product_name": "HJC 헬멧 i30 아톤 MC3H XL",
       "barcode": "H-3628",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS14",
-      "status": "매장 보유",
-      "status_type": "store",
+      "status": "품절",
+      "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ATON",
-        "아톤"
+        "아톤",
+        "ATON"
       ]
     },
     {
@@ -8122,12 +8122,12 @@
       "product_code": "13153",
       "product_name": "HJC 헬멧 i31 DEPE MC1 2XL",
       "barcode": "H-4357",
-      "store_stock": 0,
+      "store_stock": 2,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS13",
-      "status": "품절",
-      "status_type": "none",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "DEPE"
@@ -8138,7 +8138,7 @@
       "product_code": "13151",
       "product_name": "HJC 헬멧 i31 DEPE MC1 L",
       "barcode": "H-4355",
-      "store_stock": 2,
+      "store_stock": 5,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS13",
@@ -8154,7 +8154,7 @@
       "product_code": "13150",
       "product_name": "HJC 헬멧 i31 DEPE MC1 M",
       "barcode": "H-4354",
-      "store_stock": 2,
+      "store_stock": 14,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8186,7 +8186,7 @@
       "product_code": "13157",
       "product_name": "HJC 헬멧 i31 DEPE MC21 2XL",
       "barcode": "H-4361",
-      "store_stock": 1,
+      "store_stock": 2,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8314,7 +8314,7 @@
       "product_code": "08031",
       "product_name": "HJC 헬멧 i31 레노 MC21 2XL",
       "barcode": "H-4095",
-      "store_stock": 6,
+      "store_stock": 7,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS12",
@@ -8331,7 +8331,7 @@
       "product_code": "08032",
       "product_name": "HJC 헬멧 i31 레노 MC21 L",
       "barcode": "H-4093",
-      "store_stock": 2,
+      "store_stock": 3,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS12",
@@ -8365,12 +8365,12 @@
       "product_code": "08034",
       "product_name": "HJC 헬멧 i31 레노 MC21 XL",
       "barcode": "H-4094",
-      "store_stock": 0,
+      "store_stock": 1,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS12",
-      "status": "품절",
-      "status_type": "none",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "레노",
@@ -8382,7 +8382,7 @@
       "product_code": "08022",
       "product_name": "HJC 헬멧 i31 솔리드 메탈 블랙 2XL",
       "barcode": "H-4108",
-      "store_stock": 6,
+      "store_stock": 11,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8416,7 +8416,7 @@
       "product_code": "08028",
       "product_name": "HJC 헬멧 i31 솔리드 메탈 블랙 M",
       "barcode": "H-4105",
-      "store_stock": 3,
+      "store_stock": 16,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8433,7 +8433,7 @@
       "product_code": "08029",
       "product_name": "HJC 헬멧 i31 솔리드 메탈 블랙 S",
       "barcode": "H-4104",
-      "store_stock": 3,
+      "store_stock": 9,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8484,7 +8484,7 @@
       "product_code": "08023",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 L",
       "barcode": "H-4121",
-      "store_stock": 6,
+      "store_stock": 7,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8501,7 +8501,7 @@
       "product_code": "08024",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 M",
       "barcode": "H-4120",
-      "store_stock": 1,
+      "store_stock": 25,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8518,7 +8518,7 @@
       "product_code": "08025",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 S",
       "barcode": "H-4119",
-      "store_stock": 2,
+      "store_stock": 8,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8535,7 +8535,7 @@
       "product_code": "08026",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 XL",
       "barcode": "H-4122",
-      "store_stock": 3,
+      "store_stock": 1,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8586,7 +8586,7 @@
       "product_code": "08016",
       "product_name": "HJC 헬멧 i31 솔리드 엔 그레이 M",
       "barcode": "H-4110",
-      "store_stock": 6,
+      "store_stock": 17,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8603,7 +8603,7 @@
       "product_code": "12849",
       "product_name": "HJC 헬멧 i31 솔리드 엔 그레이 S",
       "barcode": "H-4109",
-      "store_stock": 2,
+      "store_stock": 8,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8637,7 +8637,7 @@
       "product_code": "08017",
       "product_name": "HJC 헬멧 i31 솔리드 펄 화이트 2XL",
       "barcode": "H-4118",
-      "store_stock": 4,
+      "store_stock": 12,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8654,7 +8654,7 @@
       "product_code": "08019",
       "product_name": "HJC 헬멧 i31 솔리드 펄 화이트 L",
       "barcode": "H-4116",
-      "store_stock": 5,
+      "store_stock": 23,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8671,7 +8671,7 @@
       "product_code": "08020",
       "product_name": "HJC 헬멧 i31 솔리드 펄 화이트 M",
       "barcode": "H-4115",
-      "store_stock": 3,
+      "store_stock": 21,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8705,7 +8705,7 @@
       "product_code": "08021",
       "product_name": "HJC 헬멧 i31 솔리드 펄 화이트 XL",
       "barcode": "H-4117",
-      "store_stock": 1,
+      "store_stock": 33,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도",
@@ -8722,7 +8722,7 @@
       "product_code": "08035",
       "product_name": "HJC 헬멧 i31 테비스 MC1SF 2XL",
       "barcode": "H-4099",
-      "store_stock": 3,
+      "store_stock": 9,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8739,7 +8739,7 @@
       "product_code": "08036",
       "product_name": "HJC 헬멧 i31 테비스 MC1SF L",
       "barcode": "H-4097",
-      "store_stock": 1,
+      "store_stock": 7,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8756,7 +8756,7 @@
       "product_code": "08037",
       "product_name": "HJC 헬멧 i31 테비스 MC1SF M",
       "barcode": "H-4096",
-      "store_stock": 2,
+      "store_stock": 8,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8773,7 +8773,7 @@
       "product_code": "08038",
       "product_name": "HJC 헬멧 i31 테비스 MC1SF XL",
       "barcode": "H-4098",
-      "store_stock": 2,
+      "store_stock": 8,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
@@ -8790,12 +8790,12 @@
       "product_code": "08039",
       "product_name": "HJC 헬멧 i31 테비스 MC5SF 2XL",
       "barcode": "H-4103",
-      "store_stock": 0,
+      "store_stock": 1,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS13",
-      "status": "품절",
-      "status_type": "none",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "TEVIS",
@@ -8807,7 +8807,7 @@
       "product_code": "08044",
       "product_name": "HJC 헬멧 i31 테비스 MC5SF L",
       "barcode": "H-4101",
-      "store_stock": 3,
+      "store_stock": 14,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS13",
@@ -8824,7 +8824,7 @@
       "product_code": "08045",
       "product_name": "HJC 헬멧 i31 테비스 MC5SF M",
       "barcode": "H-4100",
-      "store_stock": 1,
+      "store_stock": 13,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS13",
@@ -9291,8 +9291,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9308,8 +9308,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9325,8 +9325,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9342,8 +9342,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9359,8 +9359,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9376,8 +9376,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9393,8 +9393,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9410,8 +9410,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카멧",
-        "CAMET"
+        "CAMET",
+        "카멧"
       ]
     },
     {
@@ -9702,8 +9702,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "셀로스",
-        "CELOS"
+        "CELOS",
+        "셀로스"
       ]
     },
     {
@@ -9719,8 +9719,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "셀로스",
-        "CELOS"
+        "CELOS",
+        "셀로스"
       ]
     },
     {
@@ -10159,8 +10159,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "FQ20 레트로",
-        "FQ20 RETRO"
+        "FQ20 RETRO",
+        "FQ20 레트로"
       ]
     },
     {
@@ -10176,8 +10176,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "FQ20 레트로",
-        "FQ20 RETRO"
+        "FQ20 RETRO",
+        "FQ20 레트로"
       ]
     },
     {
@@ -10193,8 +10193,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "FQ20 레트로",
-        "FQ20 RETRO"
+        "FQ20 RETRO",
+        "FQ20 레트로"
       ]
     },
     {
@@ -10210,8 +10210,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "FQ20 레트로",
-        "FQ20 RETRO"
+        "FQ20 RETRO",
+        "FQ20 레트로"
       ]
     },
     {
@@ -10660,7 +10660,7 @@
       "product_code": "07806",
       "product_name": "HJC 헬멧 V10 솔리드 엔 그레이 2XL",
       "barcode": "H-3234",
-      "store_stock": 2,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS10",
@@ -11451,12 +11451,12 @@
       "product_code": "07854",
       "product_name": "HJC 헬멧 V31 솔리드 블랙 XL",
       "barcode": "H-3256",
-      "store_stock": 0,
+      "store_stock": 2,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS11",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -11706,12 +11706,12 @@
       "product_code": "07867",
       "product_name": "HJC 헬멧 V31 솔리드 화이트 XL",
       "barcode": "H-3286",
-      "store_stock": 0,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS13",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -11816,8 +11816,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11833,8 +11833,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11850,8 +11850,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11867,8 +11867,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11884,8 +11884,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11901,8 +11901,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11918,8 +11918,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -11935,8 +11935,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "쿠즈",
-        "KUZ"
+        "KUZ",
+        "쿠즈"
       ]
     },
     {
@@ -12267,7 +12267,7 @@
       "product_code": "13476",
       "product_name": "HJC 헬멧 알파1 V2 카본 솔리드 블랙 M",
       "barcode": "H-4220",
-      "store_stock": 4,
+      "store_stock": 3,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "2F 쇼룸",
@@ -12406,8 +12406,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "펑키 디아블로",
-        "FUNKY DIABLO"
+        "FUNKY DIABLO",
+        "펑키 디아블로"
       ]
     },
     {
@@ -12423,8 +12423,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "펑키 디아블로",
-        "FUNKY DIABLO"
+        "FUNKY DIABLO",
+        "펑키 디아블로"
       ]
     },
     {
@@ -12440,8 +12440,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "펑키 디아블로",
-        "FUNKY DIABLO"
+        "FUNKY DIABLO",
+        "펑키 디아블로"
       ]
     },
     {
@@ -12457,8 +12457,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "펑키 디아블로",
-        "FUNKY DIABLO"
+        "FUNKY DIABLO",
+        "펑키 디아블로"
       ]
     },
     {
@@ -12474,8 +12474,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "펑키 디아블로",
-        "FUNKY DIABLO"
+        "FUNKY DIABLO",
+        "펑키 디아블로"
       ]
     },
     {
@@ -12593,8 +12593,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12610,8 +12610,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12627,8 +12627,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12644,8 +12644,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12695,8 +12695,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -12712,8 +12712,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -12729,8 +12729,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -12746,8 +12746,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -12913,8 +12913,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "QUARTARARO REPLICA 2024",
-        "콰타라로 레플리카 2024"
+        "콰타라로 레플리카 2024",
+        "QUARTARARO REPLICA 2024"
       ]
     },
     {
@@ -12930,8 +12930,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "QUARTARARO REPLICA 2024",
-        "콰타라로 레플리카 2024"
+        "콰타라로 레플리카 2024",
+        "QUARTARARO REPLICA 2024"
       ]
     },
     {
@@ -12947,8 +12947,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "톡신 마블",
-        "TOXIN MARVEL"
+        "TOXIN MARVEL",
+        "톡신 마블"
       ]
     },
     {
@@ -12964,8 +12964,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "톡신 마블",
-        "TOXIN MARVEL"
+        "TOXIN MARVEL",
+        "톡신 마블"
       ]
     },
     {
@@ -12981,8 +12981,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "톡신 마블",
-        "TOXIN MARVEL"
+        "TOXIN MARVEL",
+        "톡신 마블"
       ]
     },
     {
@@ -13030,8 +13030,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13047,8 +13047,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13064,8 +13064,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13081,8 +13081,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13146,8 +13146,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -13424,8 +13424,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -13526,8 +13526,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13543,8 +13543,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13560,8 +13560,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13577,8 +13577,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13594,8 +13594,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13611,8 +13611,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -13628,8 +13628,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP 2",
-        "레드불 오스틴 GP2"
+        "레드불 오스틴 GP2",
+        "RED BULL AUSTIN GP 2"
       ]
     },
     {
@@ -13645,8 +13645,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP 2",
-        "레드불 오스틴 GP2"
+        "레드불 오스틴 GP2",
+        "RED BULL AUSTIN GP 2"
       ]
     },
     {
@@ -13832,8 +13832,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13849,8 +13849,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13866,8 +13866,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13883,8 +13883,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13900,8 +13900,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13917,8 +13917,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13934,8 +13934,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13951,8 +13951,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13968,8 +13968,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13985,8 +13985,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -14325,8 +14325,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -14342,8 +14342,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14359,8 +14359,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14376,8 +14376,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14393,8 +14393,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14410,8 +14410,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14427,8 +14427,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -14444,8 +14444,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -14612,8 +14612,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -14629,8 +14629,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -14858,8 +14858,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KRAKEN",
-        "크라켄"
+        "크라켄",
+        "KRAKEN"
       ]
     },
     {
@@ -14875,8 +14875,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KRAKEN",
-        "크라켄"
+        "크라켄",
+        "KRAKEN"
       ]
     },
     {
@@ -14892,8 +14892,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KRAKEN",
-        "크라켄"
+        "크라켄",
+        "KRAKEN"
       ]
     },
     {
@@ -14909,8 +14909,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "KRAKEN",
-        "크라켄"
+        "크라켄",
+        "KRAKEN"
       ]
     },
     {
@@ -14926,8 +14926,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KRAKEN",
-        "크라켄"
+        "크라켄",
+        "KRAKEN"
       ]
     },
     {
@@ -15411,8 +15411,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15428,8 +15428,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15445,8 +15445,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15462,8 +15462,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15479,8 +15479,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15496,8 +15496,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15513,8 +15513,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15530,8 +15530,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15547,8 +15547,8 @@
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15564,8 +15564,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -15768,8 +15768,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "스필버그 레드불",
-        "SPIELBERG RED BULL"
+        "SPIELBERG RED BULL",
+        "스필버그 레드불"
       ]
     },
     {
@@ -15785,8 +15785,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "스필버그 레드불",
-        "SPIELBERG RED BULL"
+        "SPIELBERG RED BULL",
+        "스필버그 레드불"
       ]
     },
     {
@@ -15802,8 +15802,8 @@
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "스필버그 레드불",
-        "SPIELBERG RED BULL"
+        "SPIELBERG RED BULL",
+        "스필버그 레드불"
       ]
     },
     {
@@ -16292,8 +16292,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16309,8 +16309,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16326,8 +16326,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16343,8 +16343,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16360,8 +16360,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16377,8 +16377,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16394,8 +16394,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16411,8 +16411,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16428,8 +16428,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16445,8 +16445,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16530,8 +16530,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하펠",
-        "HAPEL"
+        "HAPEL",
+        "하펠"
       ]
     },
     {
@@ -16547,8 +16547,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "하펠",
-        "HAPEL"
+        "HAPEL",
+        "하펠"
       ]
     },
     {
@@ -16564,8 +16564,8 @@
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하펠",
-        "HAPEL"
+        "HAPEL",
+        "하펠"
       ]
     },
     {
@@ -16590,7 +16590,7 @@
       "product_code": "14806",
       "product_name": "HJC 헬멧 알파72 카본 솔리드 XL",
       "barcode": "MTML14806",
-      "store_stock": -1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "-",
@@ -17379,7 +17379,7 @@
       "product_code": "07245",
       "product_name": "HJC 홍진 방한 마스크 커버",
       "barcode": "MTML07245",
-      "store_stock": 259,
+      "store_stock": 257,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "2F화장실 앞/D7-3",
@@ -17518,8 +17518,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -17535,8 +17535,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -17552,8 +17552,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -17569,8 +17569,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "모릭스",
-        "MORIX"
+        "MORIX",
+        "모릭스"
       ]
     },
     {
@@ -18689,8 +18689,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18706,8 +18706,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18723,8 +18723,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18740,8 +18740,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18757,8 +18757,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18774,8 +18774,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -18791,8 +18791,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FELIO",
-        "펠리오"
+        "펠리오",
+        "FELIO"
       ]
     },
     {
@@ -19003,8 +19003,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -19020,8 +19020,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -19342,8 +19342,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -19359,8 +19359,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -19376,8 +19376,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -19393,8 +19393,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -19410,8 +19410,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -19427,8 +19427,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "라윈",
-        "LAWIN"
+        "LAWIN",
+        "라윈"
       ]
     },
     {
@@ -19444,8 +19444,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19461,8 +19461,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19478,8 +19478,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19495,8 +19495,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19512,8 +19512,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19529,8 +19529,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19546,8 +19546,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19563,8 +19563,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "오틴",
-        "OTTIN"
+        "OTTIN",
+        "오틴"
       ]
     },
     {
@@ -19580,8 +19580,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP 2",
-        "레드불 오스틴 GP2"
+        "레드불 오스틴 GP2",
+        "RED BULL AUSTIN GP 2"
       ]
     },
     {
@@ -19597,8 +19597,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19614,8 +19614,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19631,8 +19631,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19648,8 +19648,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19665,8 +19665,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19682,8 +19682,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19699,8 +19699,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19716,8 +19716,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19733,8 +19733,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19750,8 +19750,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RESPON",
-        "리스폰"
+        "리스폰",
+        "RESPON"
       ]
     },
     {
@@ -19818,8 +19818,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19835,8 +19835,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19852,8 +19852,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19869,8 +19869,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19966,8 +19966,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -19983,8 +19983,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -20000,8 +20000,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -20017,8 +20017,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "케레스",
-        "KERES"
+        "KERES",
+        "케레스"
       ]
     },
     {
@@ -20275,8 +20275,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -20292,8 +20292,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -20309,8 +20309,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -20326,8 +20326,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "다카르",
-        "DAKAR"
+        "DAKAR",
+        "다카르"
       ]
     },
     {
@@ -20655,8 +20655,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "하펠",
-        "HAPEL"
+        "HAPEL",
+        "하펠"
       ]
     },
     {
@@ -20672,8 +20672,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "하펠",
-        "HAPEL"
+        "HAPEL",
+        "하펠"
       ]
     },
     {
@@ -20969,8 +20969,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -21203,8 +21203,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21220,8 +21220,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21237,8 +21237,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21254,8 +21254,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21271,8 +21271,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21288,8 +21288,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21305,8 +21305,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21322,8 +21322,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21339,8 +21339,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21356,8 +21356,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
@@ -21373,8 +21373,8 @@
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "SENIN",
-        "세닌"
+        "세닌",
+        "SENIN"
       ]
     },
     {
