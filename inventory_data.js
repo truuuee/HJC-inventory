@@ -1,15 +1,15 @@
 window.INVENTORY_DATA = {
   "meta": {
-    "store_time": "2026-11-12 10:19",
-    "store_filename": "현재고조회_20261112101947_387396699.xls",
-    "hq_time": "2026-11-11",
-    "total_store_stock": 2910,
-    "total_hq_available_in_store": 1382,
-    "total_hq_available_catalog": 1382,
+    "store_time": "2026-11-13 10:19",
+    "store_filename": "현재고조회_20261113101956_796971362.xls",
+    "hq_time": "2026-11-12",
+    "total_store_stock": 2883,
+    "total_hq_available_in_store": 1380,
+    "total_hq_available_catalog": 1380,
     "store_item_count": 1047,
     "hq_only_added_count": 762,
     "item_count": 1809,
-    "generated_at": "2026-11-12 10:22:31"
+    "generated_at": "2026-11-13 10:21:10"
   },
   "items": [
     {
@@ -33,7 +33,7 @@ window.INVENTORY_DATA = {
       "product_code": "03531",
       "product_name": "HJC C10(HJ-34P) 기어판",
       "barcode": "K-070",
-      "store_stock": 13,
+      "store_stock": 12,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-201",
@@ -113,7 +113,7 @@ window.INVENTORY_DATA = {
       "product_code": "00790",
       "product_name": "HJC C10(HJ-34P) 쉴드면 클리어",
       "barcode": "M-293",
-      "store_stock": 2,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -161,7 +161,7 @@ window.INVENTORY_DATA = {
       "product_code": "03525",
       "product_name": "HJC C70(HJ-20M) 기어판",
       "barcode": "K-008",
-      "store_stock": 7,
+      "store_stock": 6,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-201",
@@ -369,7 +369,7 @@ window.INVENTORY_DATA = {
       "product_code": "03539",
       "product_name": "HJC CH-5(HJ-12) 기어판",
       "barcode": "K-005",
-      "store_stock": 12,
+      "store_stock": 11,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-201/B11-201",
@@ -401,7 +401,7 @@ window.INVENTORY_DATA = {
       "product_code": "00809",
       "product_name": "HJC CH-5(HJ-12) 쉴드면 다크스모그",
       "barcode": "M-078",
-      "store_stock": 27,
+      "store_stock": 26,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D/B12-201",
@@ -767,7 +767,7 @@ window.INVENTORY_DATA = {
       "product_code": "10777",
       "product_name": "HJC F31/i31(HJ-43) 쉴드면 블루",
       "barcode": "M-347",
-      "store_stock": 4,
+      "store_stock": 3,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -831,7 +831,7 @@ window.INVENTORY_DATA = {
       "product_code": "03561",
       "product_name": "HJC F31/i31(HJ-43) 핀락",
       "barcode": "M-352",
-      "store_stock": 9,
+      "store_stock": 8,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-102",
@@ -959,7 +959,7 @@ window.INVENTORY_DATA = {
       "product_code": "00831",
       "product_name": "HJC FG-JET(HJ-17R) 쉴드면 골드",
       "barcode": "M-55",
-      "store_stock": 7,
+      "store_stock": 6,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -2173,7 +2173,7 @@ window.INVENTORY_DATA = {
       "product_code": "00877",
       "product_name": "HJC 알파1(HJ-35) 쉴드면 투명",
       "barcode": "M-267",
-      "store_stock": 5,
+      "store_stock": 4,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -2524,11 +2524,11 @@ window.INVENTORY_DATA = {
       "product_name": "HJC 알파12(HJ-42) 핀락",
       "barcode": "M-339",
       "store_stock": 10,
-      "hq_stock": "O",
-      "hq_stock_text": "보유(O)",
+      "hq_stock": "X",
+      "hq_stock_text": "품절(X)",
       "location": "B11-202",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "50000.0"
@@ -3438,7 +3438,7 @@ window.INVENTORY_DATA = {
       "product_code": "08099",
       "product_name": "HJC 헬멧 C10 아스파 MC1 2XL",
       "barcode": "H-4027",
-      "store_stock": -1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS15",
@@ -3446,8 +3446,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3463,8 +3463,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3480,8 +3480,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3497,8 +3497,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3514,8 +3514,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3531,8 +3531,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3548,8 +3548,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3565,8 +3565,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3582,8 +3582,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3599,8 +3599,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3616,8 +3616,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3633,8 +3633,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "아스파",
-        "ASPA"
+        "ASPA",
+        "아스파"
       ]
     },
     {
@@ -3898,8 +3898,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -3915,8 +3915,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -3932,8 +3932,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -3949,8 +3949,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -3966,8 +3966,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -3983,8 +3983,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -4000,8 +4000,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -4017,8 +4017,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "틴스",
-        "TINS"
+        "TINS",
+        "틴스"
       ]
     },
     {
@@ -4026,16 +4026,16 @@ window.INVENTORY_DATA = {
       "product_code": "14651",
       "product_name": "HJC 헬멧 C10 하이퍼 MC1 2XL",
       "barcode": "H-4317",
-      "store_stock": 0,
+      "store_stock": 4,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS16",
-      "status": "본사 보유",
-      "status_type": "hq",
+      "status": "매장/본사 보유",
+      "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4051,8 +4051,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4068,8 +4068,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4085,8 +4085,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4102,8 +4102,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4119,8 +4119,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4136,8 +4136,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4153,8 +4153,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4170,8 +4170,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4179,7 +4179,7 @@ window.INVENTORY_DATA = {
       "product_code": "14655",
       "product_name": "HJC 헬멧 C10 하이퍼 MC3HSF L",
       "barcode": "H-4323",
-      "store_stock": 1,
+      "store_stock": 3,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS16",
@@ -4187,8 +4187,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4204,8 +4204,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4221,8 +4221,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "하이퍼",
-        "HIPER"
+        "HIPER",
+        "하이퍼"
       ]
     },
     {
@@ -4238,8 +4238,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4255,8 +4255,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4286,8 +4286,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4303,8 +4303,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4320,8 +4320,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4337,8 +4337,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4354,8 +4354,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벨리스",
-        "BELIS"
+        "BELIS",
+        "벨리스"
       ]
     },
     {
@@ -4902,8 +4902,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -4919,8 +4919,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -4936,8 +4936,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -4953,8 +4953,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -4970,8 +4970,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -4987,8 +4987,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -5004,8 +5004,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -5021,8 +5021,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "QUEZ",
-        "퀘즈"
+        "퀘즈",
+        "QUEZ"
       ]
     },
     {
@@ -5106,8 +5106,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5123,8 +5123,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5140,8 +5140,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5157,8 +5157,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5174,8 +5174,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5191,8 +5191,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5208,8 +5208,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5225,8 +5225,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "카온",
-        "KAON"
+        "KAON",
+        "카온"
       ]
     },
     {
@@ -5242,8 +5242,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5259,8 +5259,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5276,8 +5276,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5293,8 +5293,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5310,8 +5310,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5327,8 +5327,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5344,8 +5344,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5361,8 +5361,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DRIZZLE",
-        "드리즐"
+        "드리즐",
+        "DRIZZLE"
       ]
     },
     {
@@ -5378,8 +5378,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5395,8 +5395,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5412,8 +5412,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5429,8 +5429,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5439,15 +5439,15 @@ window.INVENTORY_DATA = {
       "product_name": "HJC 헬멧 CH-5 볼레즈 MC5 L",
       "barcode": "H-598",
       "store_stock": 6,
-      "hq_stock": "O",
-      "hq_stock_text": "보유(O)",
+      "hq_stock": "X",
+      "hq_stock_text": "품절(X)",
       "location": "RS6",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5463,8 +5463,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5480,8 +5480,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5497,8 +5497,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VOL-LEZ",
-        "볼레즈"
+        "볼레즈",
+        "VOL-LEZ"
       ]
     },
     {
@@ -5623,11 +5623,11 @@ window.INVENTORY_DATA = {
       "product_name": "HJC 헬멧 CH-5 솔리드 화이트 S",
       "barcode": "H-278",
       "store_stock": 2,
-      "hq_stock": "O",
-      "hq_stock_text": "보유(O)",
+      "hq_stock": "X",
+      "hq_stock_text": "품절(X)",
       "location": "RS8",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "매장 보유",
+      "status_type": "store",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -6032,8 +6032,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6049,8 +6049,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6066,8 +6066,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6083,8 +6083,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6100,8 +6100,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6117,8 +6117,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6134,8 +6134,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6151,8 +6151,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "스탄",
-        "STAN"
+        "STAN",
+        "스탄"
       ]
     },
     {
@@ -6168,8 +6168,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "NABY",
-        "나비"
+        "나비",
+        "NABY"
       ]
     },
     {
@@ -6185,8 +6185,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "NABY",
-        "나비"
+        "나비",
+        "NABY"
       ]
     },
     {
@@ -6202,8 +6202,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "NABY",
-        "나비"
+        "나비",
+        "NABY"
       ]
     },
     {
@@ -6219,8 +6219,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "NABY",
-        "나비"
+        "나비",
+        "NABY"
       ]
     },
     {
@@ -6236,8 +6236,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6253,8 +6253,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6270,8 +6270,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6287,8 +6287,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6304,8 +6304,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6321,8 +6321,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6338,8 +6338,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6355,8 +6355,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6372,8 +6372,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6389,8 +6389,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6406,8 +6406,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6423,8 +6423,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "바스크",
-        "BASK"
+        "BASK",
+        "바스크"
       ]
     },
     {
@@ -6440,8 +6440,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6457,8 +6457,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6474,8 +6474,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6491,8 +6491,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6508,8 +6508,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6525,8 +6525,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6542,8 +6542,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6559,8 +6559,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "세론",
-        "CERON"
+        "CERON",
+        "세론"
       ]
     },
     {
@@ -6568,12 +6568,12 @@ window.INVENTORY_DATA = {
       "product_code": "08148",
       "product_name": "HJC 헬멧 F31 솔리드 메탈 블랙 2XL",
       "barcode": "H-3756",
-      "store_stock": 3,
+      "store_stock": 0,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS14",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "본사 보유",
+      "status_type": "hq",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -6619,12 +6619,12 @@ window.INVENTORY_DATA = {
       "product_code": "12913",
       "product_name": "HJC 헬멧 F31 솔리드 메탈 블랙 S",
       "barcode": "H-3829",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "RS14",
-      "status": "매장 보유",
-      "status_type": "store",
+      "status": "품절",
+      "status_type": "none",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -6653,12 +6653,12 @@ window.INVENTORY_DATA = {
       "product_code": "08149",
       "product_name": "HJC 헬멧 F31 솔리드 세미 플랫 블랙 2XL",
       "barcode": "H-3748",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS14",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "본사 보유",
+      "status_type": "hq",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -7332,8 +7332,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7349,8 +7349,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7366,8 +7366,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7383,8 +7383,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7400,8 +7400,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7417,8 +7417,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -7448,8 +7448,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "EPEN",
-        "에펜"
+        "에펜",
+        "EPEN"
       ]
     },
     {
@@ -8353,8 +8353,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "레노",
-        "RENO"
+        "RENO",
+        "레노"
       ]
     },
     {
@@ -8370,8 +8370,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "레노",
-        "RENO"
+        "RENO",
+        "레노"
       ]
     },
     {
@@ -8387,8 +8387,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "레노",
-        "RENO"
+        "RENO",
+        "레노"
       ]
     },
     {
@@ -8404,8 +8404,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "레노",
-        "RENO"
+        "RENO",
+        "레노"
       ]
     },
     {
@@ -8413,7 +8413,7 @@ window.INVENTORY_DATA = {
       "product_code": "08022",
       "product_name": "HJC 헬멧 i31 솔리드 메탈 블랙 2XL",
       "barcode": "H-4108",
-      "store_stock": 8,
+      "store_stock": 6,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도/E6-1",
@@ -8481,7 +8481,7 @@ window.INVENTORY_DATA = {
       "product_code": "08030",
       "product_name": "HJC 헬멧 i31 솔리드 메탈 블랙 XL",
       "barcode": "H-4107",
-      "store_stock": 4,
+      "store_stock": 2,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8498,7 +8498,7 @@ window.INVENTORY_DATA = {
       "product_code": "08018",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 2XL",
       "barcode": "H-4123",
-      "store_stock": 5,
+      "store_stock": 4,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8515,7 +8515,7 @@ window.INVENTORY_DATA = {
       "product_code": "08023",
       "product_name": "HJC 헬멧 i31 솔리드 세미 플랫 블랙 L",
       "barcode": "H-4121",
-      "store_stock": 3,
+      "store_stock": 2,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8583,7 +8583,7 @@ window.INVENTORY_DATA = {
       "product_code": "08009",
       "product_name": "HJC 헬멧 i31 솔리드 엔 그레이 2XL",
       "barcode": "H-4113",
-      "store_stock": 3,
+      "store_stock": 2,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8600,7 +8600,7 @@ window.INVENTORY_DATA = {
       "product_code": "08015",
       "product_name": "HJC 헬멧 i31 솔리드 엔 그레이 L",
       "barcode": "H-4111",
-      "store_stock": 10,
+      "store_stock": 8,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "3F 엘베 앞 복도",
@@ -8634,7 +8634,7 @@ window.INVENTORY_DATA = {
       "product_code": "12849",
       "product_name": "HJC 헬멧 i31 솔리드 엔 그레이 S",
       "barcode": "H-4109",
-      "store_stock": 6,
+      "store_stock": 4,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도/E5-1",
@@ -8736,7 +8736,7 @@ window.INVENTORY_DATA = {
       "product_code": "08021",
       "product_name": "HJC 헬멧 i31 솔리드 펄 화이트 XL",
       "barcode": "H-4117",
-      "store_stock": 27,
+      "store_stock": 26,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "3F 엘베 앞 복도/E5-1",
@@ -9458,8 +9458,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9475,8 +9475,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9492,8 +9492,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9509,8 +9509,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9526,8 +9526,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9543,8 +9543,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9560,8 +9560,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9577,8 +9577,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "패디",
-        "PADDY"
+        "PADDY",
+        "패디"
       ]
     },
     {
@@ -9733,8 +9733,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "CELOS",
-        "셀로스"
+        "셀로스",
+        "CELOS"
       ]
     },
     {
@@ -9750,8 +9750,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "CELOS",
-        "셀로스"
+        "셀로스",
+        "CELOS"
       ]
     },
     {
@@ -9946,8 +9946,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -9963,8 +9963,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -9980,8 +9980,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -11096,8 +11096,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11113,8 +11113,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11130,8 +11130,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11147,8 +11147,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11164,8 +11164,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11181,8 +11181,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BYRON",
-        "바이런"
+        "바이런",
+        "BYRON"
       ]
     },
     {
@@ -11530,12 +11530,12 @@ window.INVENTORY_DATA = {
       "product_code": "07849",
       "product_name": "HJC 헬멧 V31 솔리드 세미 플랫 블랙 2XL",
       "barcode": "H-3282",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS11",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "본사 보유",
+      "status_type": "hq",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -11547,12 +11547,12 @@ window.INVENTORY_DATA = {
       "product_code": "07850",
       "product_name": "HJC 헬멧 V31 솔리드 세미 플랫 블랙 L",
       "barcode": "H-3280",
-      "store_stock": 1,
+      "store_stock": 0,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "RS11",
-      "status": "매장/본사 보유",
-      "status_type": "both",
+      "status": "본사 보유",
+      "status_type": "hq",
       "category": "헬멧",
       "aliases": [
         "SOLID",
@@ -11878,8 +11878,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11895,8 +11895,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11912,8 +11912,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11929,8 +11929,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11946,8 +11946,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11963,8 +11963,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11980,8 +11980,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -11997,8 +11997,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "KUZ",
-        "쿠즈"
+        "쿠즈",
+        "KUZ"
       ]
     },
     {
@@ -12329,7 +12329,7 @@ window.INVENTORY_DATA = {
       "product_code": "13476",
       "product_name": "HJC 헬멧 알파1 V2 카본 솔리드 블랙 M",
       "barcode": "H-4220",
-      "store_stock": 3,
+      "store_stock": 2,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "2F 쇼룸",
@@ -12468,8 +12468,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "FUNKY DIABLO",
-        "펑키 디아블로"
+        "펑키 디아블로",
+        "FUNKY DIABLO"
       ]
     },
     {
@@ -12478,15 +12478,15 @@ window.INVENTORY_DATA = {
       "product_name": "HJC 헬멧 알파1 V2 카본 펑키 디아블로 MC8 L",
       "barcode": "H-4456",
       "store_stock": 0,
-      "hq_stock": "X",
-      "hq_stock_text": "품절(X)",
+      "hq_stock": "O",
+      "hq_stock_text": "보유(O)",
       "location": "2F 쇼룸",
-      "status": "품절",
-      "status_type": "none",
+      "status": "본사 보유",
+      "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "FUNKY DIABLO",
-        "펑키 디아블로"
+        "펑키 디아블로",
+        "FUNKY DIABLO"
       ]
     },
     {
@@ -12502,8 +12502,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "FUNKY DIABLO",
-        "펑키 디아블로"
+        "펑키 디아블로",
+        "FUNKY DIABLO"
       ]
     },
     {
@@ -12519,8 +12519,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "FUNKY DIABLO",
-        "펑키 디아블로"
+        "펑키 디아블로",
+        "FUNKY DIABLO"
       ]
     },
     {
@@ -12536,8 +12536,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "FUNKY DIABLO",
-        "펑키 디아블로"
+        "펑키 디아블로",
+        "FUNKY DIABLO"
       ]
     },
     {
@@ -12570,8 +12570,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP",
-        "레드불 오스틴 GP"
+        "레드불 오스틴 GP",
+        "RED BULL AUSTIN GP"
       ]
     },
     {
@@ -12587,8 +12587,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP",
-        "레드불 오스틴 GP"
+        "레드불 오스틴 GP",
+        "RED BULL AUSTIN GP"
       ]
     },
     {
@@ -12604,8 +12604,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP",
-        "레드불 오스틴 GP"
+        "레드불 오스틴 GP",
+        "RED BULL AUSTIN GP"
       ]
     },
     {
@@ -12621,8 +12621,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP",
-        "레드불 오스틴 GP"
+        "레드불 오스틴 GP",
+        "RED BULL AUSTIN GP"
       ]
     },
     {
@@ -12638,8 +12638,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "RED BULL AUSTIN GP",
-        "레드불 오스틴 GP"
+        "레드불 오스틴 GP",
+        "RED BULL AUSTIN GP"
       ]
     },
     {
@@ -12655,8 +12655,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12672,8 +12672,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12689,8 +12689,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12706,8 +12706,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
@@ -12723,8 +12723,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BINDER REPLICA 2024",
-        "빈더 레플리카 2024"
+        "빈더 레플리카 2024",
+        "BINDER REPLICA 2024"
       ]
     },
     {
@@ -12740,8 +12740,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BINDER REPLICA 2024",
-        "빈더 레플리카 2024"
+        "빈더 레플리카 2024",
+        "BINDER REPLICA 2024"
       ]
     },
     {
@@ -13092,8 +13092,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13109,8 +13109,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13126,8 +13126,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13143,8 +13143,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -13208,8 +13208,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -13486,8 +13486,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -13809,8 +13809,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "베놈3",
-        "VENOM 3"
+        "VENOM 3",
+        "베놈3"
       ]
     },
     {
@@ -13826,8 +13826,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "베놈3",
-        "VENOM 3"
+        "VENOM 3",
+        "베놈3"
       ]
     },
     {
@@ -13843,8 +13843,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "베놈3",
-        "VENOM 3"
+        "VENOM 3",
+        "베놈3"
       ]
     },
     {
@@ -13860,8 +13860,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "베놈3",
-        "VENOM 3"
+        "VENOM 3",
+        "베놈3"
       ]
     },
     {
@@ -13877,8 +13877,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "베놈3",
-        "VENOM 3"
+        "VENOM 3",
+        "베놈3"
       ]
     },
     {
@@ -13894,8 +13894,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13911,8 +13911,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13928,8 +13928,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13945,8 +13945,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13962,8 +13962,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13979,8 +13979,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -13996,8 +13996,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -14013,8 +14013,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -14030,8 +14030,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -14047,8 +14047,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -14387,8 +14387,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -14404,8 +14404,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14421,8 +14421,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14438,8 +14438,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14455,8 +14455,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -14472,8 +14472,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "안티 베놈2 마블",
-        "ANTI VENOM 2 MARVEL"
+        "ANTI VENOM 2 MARVEL",
+        "안티 베놈2 마블"
       ]
     },
     {
@@ -15473,8 +15473,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15490,8 +15490,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15507,8 +15507,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15524,8 +15524,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15541,8 +15541,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15558,8 +15558,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15575,8 +15575,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15592,8 +15592,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15609,8 +15609,8 @@ window.INVENTORY_DATA = {
       "status_type": "store",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -15626,8 +15626,8 @@ window.INVENTORY_DATA = {
       "status_type": "none",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -16354,8 +16354,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16371,8 +16371,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16388,8 +16388,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16405,8 +16405,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16422,8 +16422,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16439,8 +16439,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16456,8 +16456,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16473,8 +16473,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16490,8 +16490,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16507,8 +16507,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "제카",
-        "ZECHA"
+        "ZECHA",
+        "제카"
       ]
     },
     {
@@ -16592,8 +16592,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "HAPEL",
-        "하펠"
+        "하펠",
+        "HAPEL"
       ]
     },
     {
@@ -16609,8 +16609,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "HAPEL",
-        "하펠"
+        "하펠",
+        "HAPEL"
       ]
     },
     {
@@ -16626,8 +16626,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "HAPEL",
-        "하펠"
+        "하펠",
+        "HAPEL"
       ]
     },
     {
@@ -16690,8 +16690,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "루브",
-        "LUVE"
+        "LUVE",
+        "루브"
       ]
     },
     {
@@ -16707,8 +16707,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16724,8 +16724,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16741,8 +16741,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16758,8 +16758,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16775,8 +16775,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16792,8 +16792,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16809,8 +16809,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16826,8 +16826,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16843,8 +16843,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -16860,8 +16860,8 @@ window.INVENTORY_DATA = {
       "status_type": "both",
       "category": "헬멧",
       "aliases": [
-        "RAFINO",
-        "라피노"
+        "라피노",
+        "RAFINO"
       ]
     },
     {
@@ -17441,7 +17441,7 @@ window.INVENTORY_DATA = {
       "product_code": "07245",
       "product_name": "HJC 홍진 방한 마스크 커버",
       "barcode": "MTML07245",
-      "store_stock": 236,
+      "store_stock": 231,
       "hq_stock": "X",
       "hq_stock_text": "품절(X)",
       "location": "2F화장실 앞/D7-3",
@@ -18153,8 +18153,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "헥스",
-        "HEX"
+        "HEX",
+        "헥스"
       ]
     },
     {
@@ -18170,8 +18170,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "헥스",
-        "HEX"
+        "HEX",
+        "헥스"
       ]
     },
     {
@@ -18187,8 +18187,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "헥스",
-        "HEX"
+        "HEX",
+        "헥스"
       ]
     },
     {
@@ -18204,8 +18204,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "헥스",
-        "HEX"
+        "HEX",
+        "헥스"
       ]
     },
     {
@@ -18221,8 +18221,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "헥스",
-        "HEX"
+        "HEX",
+        "헥스"
       ]
     },
     {
@@ -18500,8 +18500,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -18517,8 +18517,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -18534,8 +18534,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -18551,8 +18551,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -18568,8 +18568,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "VELLY",
-        "벨리"
+        "벨리",
+        "VELLY"
       ]
     },
     {
@@ -18946,8 +18946,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "ELDON",
-        "엘던"
+        "엘던",
+        "ELDON"
       ]
     },
     {
@@ -18963,8 +18963,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "고스트 콜 오브 듀티",
-        "GHOST CALL OF DUTY"
+        "GHOST CALL OF DUTY",
+        "고스트 콜 오브 듀티"
       ]
     },
     {
@@ -19064,8 +19064,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19081,8 +19081,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19098,8 +19098,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19115,8 +19115,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19132,8 +19132,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19149,8 +19149,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19166,8 +19166,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19183,8 +19183,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19200,8 +19200,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19217,8 +19217,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "시즈",
-        "SEEZE"
+        "SEEZE",
+        "시즈"
       ]
     },
     {
@@ -19285,8 +19285,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -19302,8 +19302,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "BRELS",
-        "블레스"
+        "블레스",
+        "BRELS"
       ]
     },
     {
@@ -19540,8 +19540,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19557,8 +19557,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19574,8 +19574,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19591,8 +19591,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19608,8 +19608,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19625,8 +19625,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19642,8 +19642,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19659,8 +19659,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19676,8 +19676,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19693,8 +19693,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "리스폰",
-        "RESPON"
+        "RESPON",
+        "리스폰"
       ]
     },
     {
@@ -19761,8 +19761,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19778,8 +19778,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19795,8 +19795,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -19812,8 +19812,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "스파소",
-        "SPASSO"
+        "SPASSO",
+        "스파소"
       ]
     },
     {
@@ -20202,8 +20202,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -20219,8 +20219,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -20236,8 +20236,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -20253,8 +20253,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "DAKAR",
-        "다카르"
+        "다카르",
+        "DAKAR"
       ]
     },
     {
@@ -20582,8 +20582,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "HAPEL",
-        "하펠"
+        "하펠",
+        "HAPEL"
       ]
     },
     {
@@ -20599,8 +20599,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "HAPEL",
-        "하펠"
+        "하펠",
+        "HAPEL"
       ]
     },
     {
@@ -20731,8 +20731,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "루브",
-        "LUVE"
+        "LUVE",
+        "루브"
       ]
     },
     {
@@ -20748,8 +20748,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "루브",
-        "LUVE"
+        "LUVE",
+        "루브"
       ]
     },
     {
@@ -20896,8 +20896,8 @@ window.INVENTORY_DATA = {
       "status_type": "hq",
       "category": "헬멧",
       "aliases": [
-        "벤스피스 실버스타",
-        "BEN SPIES SILVERSTAR"
+        "BEN SPIES SILVERSTAR",
+        "벤스피스 실버스타"
       ]
     },
     {
