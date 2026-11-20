@@ -1,7 +1,7 @@
 {
   "meta": {
-    "store_time": "2026-11-20 13:28",
-    "store_filename": "현재고조회_20261120132816_896195982.xls",
+    "store_time": "2026-11-20 13:35",
+    "store_filename": "현재고조회_20261120133548_348145169.xls",
     "hq_time": "2026-11-19",
     "total_store_stock": 2796,
     "total_hq_available_in_store": 1429,
@@ -14,7 +14,7 @@
     "matrix_override_to_o": 66,
     "code_only_o_kept": 5,
     "item_count": 2286,
-    "generated_at": "2026-11-20 13:29:42"
+    "generated_at": "2026-11-20 13:36:49"
   },
   "items": [
     {
@@ -11511,7 +11511,7 @@
     {
       "no": 613,
       "product_code": "13759",
-      "product_name": "HJC 헬멧 i91 카르스트 MC5SF M",
+      "product_name": "HJC 헬멧 i91 카스트 MC5SF M",
       "barcode": "H-3606",
       "store_stock": 0,
       "hq_stock": "O",
