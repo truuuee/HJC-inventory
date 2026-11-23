@@ -103,6 +103,7 @@
 
   // Common Synonyms for Cross-Language Search
   const SYNONYM_MAP = {
+    // Graphics
     'alia': '아리아',
     '아리아': 'alia',
     'curves': '커브스',
@@ -119,16 +120,24 @@
     '바리우스': 'balius',
     'bask': '바스크',
     '바스크': 'bask',
+    'bekavo': '베카보',
+    '베카보': 'bekavo',
     'combust': '컴버스트',
     '컴버스트': 'combust',
     'dakar': '다카르',
     '다카르': 'dakar',
+    'dereen': '데린',
+    '데린': 'dereen',
     'ceron': '세론',
     '세론': 'ceron',
     'sysma': '시스마',
     '시스마': 'sysma',
     'drizzle': '드리즐',
     '드리즐': 'drizzle',
+    'xentra': '젠트라',
+    '젠트라': 'xentra',
+    'kasina': '카시나',
+    '카시나': 'kasina',
     'solid': '솔리드',
     '솔리드': 'solid',
     'carbon': '카본',
@@ -160,13 +169,90 @@
     '미니언즈': 'minions',
     'minions': '미니언즈',
     '팩맨': 'pac-man',
+    'pac-man': '팩맨',
     '범블비': 'bumblebee',
     'bumblebee': '범블비',
     '자쿠': 'zaku',
     'zaku': '자쿠',
     '조커': 'joker',
-    'joker': '조커'
+    'joker': '조커',
+    '보바펫': 'boba fett',
+    '카니지': 'carnage',
+    'carnage': '카니지',
+    '카일로': 'kylo',
+    'kylo': '카일로',
+    '라이트퓨리': 'light fury',
+    '섀도우': 'shadow',
+    'shadow': '섀도우',
+    '뱅가드': 'vanguard',
+    'vanguard': '뱅가드',
+    '벤스피스': 'ben spies',
+    // Colors & Finishes
+    'sand': '샌드',
+    '샌드': 'sand',
+    'beige': '베이지',
+    '베이지': 'beige',
+    'semi': '세미',
+    '세미': 'semi',
+    'flat': '플랫',
+    '플랫': 'flat',
+    'matte': ['매트', '무광'],
+    '매트': ['matte', '무광'],
+    '무광': ['matte', '매트', '플랫'],
+    'metal': '메탈',
+    '메탈': 'metal',
+    'metallic': '메탈릭',
+    '메탈릭': 'metallic',
+    'pearl': '펄',
+    '펄': 'pearl',
+    'white': '화이트',
+    '화이트': 'white',
+    'black': '블랙',
+    '블랙': 'black',
+    'gray': '그레이',
+    'grey': '그레이',
+    '그레이': ['gray', 'grey'],
+    'titanium': '티타늄',
+    '티타늄': 'titanium',
+    'blue': '블루',
+    '블루': 'blue',
+    'red': '레드',
+    '레드': 'red',
+    'green': '그린',
+    '그린': 'green',
+    'yellow': '옐로우',
+    '옐로우': 'yellow',
+    'deep': '딥',
+    '딥': 'deep',
+    'fluorescent': ['플루오리센트', '형광'],
+    '플루오리센트': ['fluorescent', '형광'],
+    '형광': ['fluorescent', '플루오리센트'],
+    'rubbertone': '러버톤',
+    '러버톤': 'rubbertone',
+    'rainbow': '레인보우',
+    '레인보우': 'rainbow',
+    'gold': '골드',
+    '골드': 'gold',
+    'silver': '실버',
+    '실버': 'silver',
+    'clear': ['투명', '클리어'],
+    '투명': ['clear', '클리어'],
+    '클리어': ['clear', '투명'],
+    'smoke': ['스모그', '스모크'],
+    '스모그': ['smoke', '스모크'],
+    '스모크': ['smoke', '스모그'],
+    // Parts
+    'tear-off': ['테어오프', '티어오프'],
+    '테어오프': ['tear-off', '티어오프'],
+    '티어오프': ['tear-off', '테어오프'],
+    '이지볼트': 'easy bolt',
+    '스마트': 'smart',
+    'smart': '스마트'
   };
+
+  function getDisplayName(item) {
+    return (item && (item.display_name || item.product_name)) || '';
+  }
 
   // Helper to get all search variants/synonyms for a token
   function getSearchVariants(token) {
@@ -223,8 +309,9 @@
         if (currentStatus === 'out-of-stock' && (item.store_stock > 0 || item.hq_stock === 'O')) return false;
       }
 
-      // 3. Search Query Filter (Matches product_name, code, barcode, aliases, and synonyms)
+      // 3. Search Query Filter (Matches display_name, product_name, code, barcode, aliases, and synonyms)
       if (rawTokens.length > 0) {
+        const dName = getDisplayName(item).toLowerCase();
         const pName = (item.product_name || '').toLowerCase();
         const pCode = (item.product_code || '').toLowerCase();
         const barcode = (item.barcode || '').toLowerCase();
@@ -232,20 +319,21 @@
         const aliasStr = aliases.join(' ');
 
         // 공백 제거 문자열 (예: 'rpha 11' vs 'rpha11')
+        const dNameNoSpace = dName.replace(/\s+/g, '');
         const pNameNoSpace = pName.replace(/\s+/g, '');
         const pCodeNoSpace = pCode.replace(/\s+/g, '');
         const barcodeNoSpace = barcode.replace(/\s+/g, '');
         const aliasStrNoSpace = aliasStr.replace(/\s+/g, '');
 
-        // Every token must be present in product_name OR code/barcode OR aliases OR matched via synonym
+        // Every token must be present in display_name OR product_name OR code/barcode OR aliases OR matched via synonym
         const matchesAll = rawTokens.every(tok => {
           const variants = getSearchVariants(tok);
           return variants.some(v => {
-            if (pName.includes(v) || pCode.includes(v) || barcode.includes(v) || aliasStr.includes(v)) {
+            if (dName.includes(v) || pName.includes(v) || pCode.includes(v) || barcode.includes(v) || aliasStr.includes(v)) {
               return true;
             }
             const vNoSpace = v.replace(/\s+/g, '');
-            if (vNoSpace && (pNameNoSpace.includes(vNoSpace) || pCodeNoSpace.includes(vNoSpace) || barcodeNoSpace.includes(vNoSpace) || aliasStrNoSpace.includes(vNoSpace))) {
+            if (vNoSpace && (dNameNoSpace.includes(vNoSpace) || pNameNoSpace.includes(vNoSpace) || pCodeNoSpace.includes(vNoSpace) || barcodeNoSpace.includes(vNoSpace) || aliasStrNoSpace.includes(vNoSpace))) {
               return true;
             }
             return false;
@@ -286,6 +374,10 @@
         return (orderA - orderB) * factor;
       }
 
+      if (column === 'product_name') {
+        return String(getDisplayName(a)).localeCompare(String(getDisplayName(b)), 'ko') * factor;
+      }
+
       return String(valA || '').localeCompare(String(valB || ''), 'ko') * factor;
     });
   }
@@ -323,7 +415,8 @@
         ? idx + 1 
         : (currentPage - 1) * Number(pageSize) + idx + 1;
 
-      const highlightedName = highlightMatches(item.product_name, highlightTokens);
+      const displayName = getDisplayName(item);
+      const highlightedName = highlightMatches(displayName, highlightTokens);
       const highlightedCode = highlightMatches(item.product_code, highlightTokens);
       const highlightedBarcode = highlightMatches(item.barcode, highlightTokens);
 
@@ -354,7 +447,7 @@
             </span>
           </td>
           <td class="col-name">
-            <span class="clickable-copy" data-copy="${escapeHtml(item.product_name)}" title="클릭하여 복사">
+            <span class="clickable-copy" data-copy="${escapeHtml(displayName)}" title="클릭하여 복사">
               ${highlightedName}
             </span>
           </td>
@@ -374,18 +467,19 @@
     inventoryTableBody.innerHTML = rowsHtml;
   }
 
-  // Highlight matching search tokens in text
+  // Highlight matching search tokens in text (single-pass to avoid corrupting HTML tags)
   function highlightMatches(text, tokens) {
     if (!text) return '';
     if (!tokens || tokens.length === 0) return escapeHtml(text);
 
-    let escaped = escapeHtml(text);
-    tokens.forEach(tok => {
-      if (!tok) return;
-      const regex = new RegExp(`(${escapeRegex(tok)})`, 'gi');
-      escaped = escaped.replace(regex, '<mark class="search-highlight">$1</mark>');
-    });
-    return escaped;
+    const uniqueTokens = Array.from(new Set(tokens.filter(Boolean)))
+      .sort((a, b) => b.length - a.length);
+    if (uniqueTokens.length === 0) return escapeHtml(text);
+
+    const escaped = escapeHtml(text);
+    const pattern = uniqueTokens.map(t => escapeRegex(escapeHtml(t))).join('|');
+    const regex = new RegExp(`(${pattern})`, 'gi');
+    return escaped.replace(regex, '<mark class="search-highlight">$1</mark>');
   }
 
   // Pagination Rendering
@@ -615,7 +709,7 @@
     const rows = filteredItems.map((item, idx) => [
       idx + 1,
       `"${(item.product_code || '').replace(/"/g, '""')}"`,
-      `"${(item.product_name || '').replace(/"/g, '""')}"`,
+      `"${(getDisplayName(item) || '').replace(/"/g, '""')}"`,
       `"${(item.barcode || '').replace(/"/g, '""')}"`,
       item.store_stock,
       item.hq_stock_text,
