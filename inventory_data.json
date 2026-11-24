@@ -1,9 +1,9 @@
 {
   "meta": {
-    "store_time": "2026-11-24 14:47",
-    "store_filename": "현재고조회_20261124144711_231705087.xls",
+    "store_time": "2026-11-24 15:54",
+    "store_filename": "현재고조회_20261124155440_280531304.xls",
     "hq_time": "2026-11-23",
-    "total_store_stock": 2779,
+    "total_store_stock": 2780,
     "total_hq_available_in_store": 1423,
     "total_hq_available_catalog": 1423,
     "store_item_count": 1057,
@@ -14,7 +14,7 @@
     "matrix_override_to_o": 64,
     "code_only_o_kept": 5,
     "item_count": 2286,
-    "generated_at": "2026-11-24 14:48:39"
+    "generated_at": "2026-11-24 15:55:37"
   },
   "items": [
     {
@@ -246,7 +246,7 @@
       "product_code": "00801",
       "product_name": "HJC C70(HJ-20M) 쉴드면 투명",
       "barcode": "M-150",
-      "store_stock": 2,
+      "store_stock": 1,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "A14-D",
@@ -262,7 +262,7 @@
       "product_code": "03404",
       "product_name": "HJC C70(HJ-20M) 핀락",
       "barcode": "M-157",
-      "store_stock": 5,
+      "store_stock": 4,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "B11-202",
@@ -1526,7 +1526,7 @@
       "product_code": "03508",
       "product_name": "HJC i70(HJ-31) 쉴드면 실버",
       "barcode": "M-204",
-      "store_stock": 4,
+      "store_stock": 7,
       "hq_stock": "O",
       "hq_stock_text": "보유(O)",
       "location": "2층 쇼룸 앞",
